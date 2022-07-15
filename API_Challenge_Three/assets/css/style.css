@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 15px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+}
+
+.get-facts-heading {
+    margin-top: 70px;
+    font-weight: normal;
+}
+
+.ul-container {
+    font-size: large;
+    height: 300px;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: lightgreen;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 4px 8px;
+}
+
+button:hover {
+    background-color: rgb(158, 255, 158);
+}
+
+button:active {
+    background-color: rgb(121, 207, 121);
+}
+
+p {
+    margin: 0 700px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* KEEP THIS AS A REFERENCE:
+parent {
+    display: flex;    mandatory 
+    flex-direction: ;    row (default) | row-reverse | column | column-reverse 
+    justify-content: ;    flex-start (default) | flex-end | center | space-between | space-around | space-evenly 
+    align-items: ;    flex-start | flex-end | center | (baseline) | stretch (default) 
+    flex-wrap: ;    nowrap (default) | wrap | wrap-reverse 
+    align-content: ;    flex-start | flex-end | center | space-between | space-around | stretch (default) 
+}
+  
+child {
+    align-self: ;    flex-start | flex-end | center | (baseline) | stretch (default)
+    flex-grow: ;    0 is default 
+    flex-shrink: ;    1 is default 
+    flex-basis: ;    auto is default 
+    order: ;    0 is default
+  
+    flex: [flex-grow number, flex-shrink number, flex-basis number];    this is a way (instead of using % outside of Flexbox) to set relative sizes of elements. (This is how I THOUGHT 'flex-grow' worked.) An example is 'flex: 1 1 0;' (the shorthand for which is the oft used 'flex: 1;').
+    
+    margin-top: auto;    this puts the element at the bottom.
+}
+*/

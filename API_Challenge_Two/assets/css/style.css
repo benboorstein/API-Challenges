@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding: 0 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.generate-new-joke {
+    padding: 5px 8px;
+}
+
+.new-joke-location {
+    margin-top: 70px;
+    text-align: center;
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* KEEP THIS AS A REFERENCE:
+parent {
+    display: flex;    mandatory 
+    flex-direction: ;    row (default) | row-reverse | column | column-reverse 
+    justify-content: ;    flex-start (default) | flex-end | center | space-between | space-around | space-evenly 
+    align-items: ;    flex-start | flex-end | center | (baseline) | stretch (default) 
+    flex-wrap: ;    nowrap (default) | wrap | wrap-reverse 
+    align-content: ;    flex-start | flex-end | center | space-between | space-around | stretch (default) 
+}
+
+child {
+    align-self: ;    flex-start | flex-end | center | (baseline) | stretch (default)
+    flex-grow: ;    0 is default 
+    flex-shrink: ;    1 is default 
+    flex-basis: ;    auto is default 
+    order: ;    0 is default
+}
+*/
