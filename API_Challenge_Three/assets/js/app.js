@@ -7,11 +7,11 @@ function callAPI(paragraph, objProp) {
     const promise = fetch(COUNTRY_URL, { headers: {'Accept': 'application/json'} }) // this second parameter is so that what I get back is in a JSON format, instead of an HTML, or any other, format
     promise
         .then(function(response) {
-        const processingPromise = response.json()
-        return processingPromise
+            const processingPromise = response.json()
+            return processingPromise
         })
         .then(function(processedResponse) {
-        paragraph.textContent = processedResponse[0][objProp]
+            paragraph.textContent = processedResponse[0][objProp]
         })
 }
 
